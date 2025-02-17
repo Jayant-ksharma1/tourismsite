@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitol Complex - Chandigarh Heritage Tour</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: linear-gradient(to right, #003366, #2575fc);
+            color: #fff;
+            line-height: 1.6;
+        }
+        .header {
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: center;
+            padding: 3rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        .site {
+            padding: 4rem 2rem;
+            max-width: 1100px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+        }
+        .site h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-align: center;
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+        .site img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        .site p {
+            font-size: 1.1rem;
+            margin: 1.5rem 0;
+            text-align: justify;
+            color: #333;
+        }
+        .site h3 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #003366;
+        }
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            background: #003366;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #6a11cb;
+            text-decoration: underline;
+        }
+        .site img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            .site h2 {
+                font-size: 2rem;
+            }
+            .site p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Capitol Complex - Chandigarh Heritage Tour</h1>
+    </div>
+    <div class="site">
+        <h2>Capitol Complex</h2>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISERUSEBMWFhUVFxYXFRgVFRUXFhUVGBgXGBcVFhcYHSggGBolHRUWITEhJSkrLi4uFyAzODMtNygtLisBCgoKDg0OGhAQGi0lHx8tLS0tLS0rLS0tLS0tLS0rLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tLS0tLS0tK//AABEIAJEBWwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAECBAUGBwj/xABGEAABAwIDBAcEBwMLBQEAAAABAAIRAyEEEjEFQVFhBhMiMnGBkUKhscEHIzNSctHwFKKyFSQ0YmNzgpLC4fFEU3Sz0kP/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAnEQACAgICAgEDBQEAAAAAAAAAAQIRAzESIRNRQQQiYRQyQlKhcf/aAAwDAQACEQMRAD8A1FIBSypwF7dnjURAU04CcNU2OhkoUw1KErHRCElPKllRYUQSU8qWVFhRBJTypsqdhRBJTypsqLCiCYomVMQnYUCKYohCgQgRApk4v7/gkL798XtdZSzwjLi2axwzkrSIpipFp0UVamnpkuLW0RhMVJNCdiogUyJCaE7CiCSnCUIsRBOpQnhFgRTwpQnhFgQhOApQnASsKGCeE8J4RYUMnTwnhFhRFPClCUIsKIpoU4ShOxEElOEoRYg+VOGouROGqORdAw1PlRA1SypWOgWVPlRcqWVKwoFlTZUbKllRYUBypZUbKllRYUBypZUXKllRYUCypsqLlTOgapOSXbGot6B5VEhWMNTLyd0JVqQFi5vmY10+B9Fl+px+zb9Nk9FRwQMRMWsTZX34d0TEjksvG4lrDBPaF4Go/JOeeLi6Yo4ZKStA8Bh2sql3IAzv0mVafhx7Ltd65zb+1jSphodFSoQYGrWjeeZiPVY9Hb9Qe1PiF5bs9K0d02xIeZ9dQQZUHPG/WfGea5RnSl0gOE+vzVyn0gY49oeqatB0zffA0uOR/NIs8vGyz8PtaiRlzSY42HkUajiw5wAdPD8rLWP1GSPyZywY5fBYrHKJdYW3E62GieESlVLCJ0sdJ0P/ACNEWplMmIFzbhfX0W8frP7Iwl9J/VlWEoRRSm4KguqGaEtM5p4Zx2iMJwFKFIBaWZ0QhPlUw1SDUWAPKnDUTKnypWAMNUsqmGp8qVjohlSyomVPlRYUCyp8qJlT5UWKgWVKEXKllTsKBQmhGypZU7JoGzalEv6sVG5rWkXm9uNr24q7C89w+0G0qtI1GgGMrn+2ASQAdSIED816BRqtcJaZGki9/FcePOpI6p4eOiYCeEv1oUs3j6W8Ffkj7J8cvQ8J4StbWxnTkRf1TCoJib+BR5F7Dxv0PCUKcJQnyFxIQmhThMUcgoimKbNPdvz3JPysGao4ACJJMASsp51HRtDA3sfKTy+KkykBzK5zH9MKYkYVhrRHaJFOkJNM992py1Q4aTBuuUxW3qlZzOtrOc3rKXYodilJr1Ggucbvb2QCCHXFjvXJKUpbOqMIx0epbMqMqNeaT2EiWlzTmhw1uJEg7ty5/afRuoKdYvxBq9bAhzQMjhJDpHOLRwCh9FZBwXZZ1YD3jK1xIBDiLlxJJXVVmSCDJB1ssm6ZslaPKsJsfEZiGksI1OYj0hX9r7QZh2gEipWGjQYaDa7zu+Kr9OqpouqihUqNAaC8ZzBdrp4ELgMFVfVzQBaOO+fyWmzN9GviMUXuL6l3E3Mg+nLkhioDOS/GdB5qnWwZEl5MASfirlGm39lqVQI7LSOP2jR8EUKx6YO9EYTxKx6e0OBPopjaPNKmUbYP+6LRxjgZDiI5lYY2l5qxh8S5xAA1I1j5J0wOmobdqjeD4rUo7envt48DE8FxtHGDSPNWaeICkZ3OH2pSNg4CbybaQtWgwPGbPrcibXuvNeuH/NvcVdo4140JHgfkUAd49zd3u/JRzRC5TDbce3eD+IfNadLbwIAc3xOtoWkc046ZnLDCW0bgCkAs7C7WbUMEj1iDfjuWjSIOhvv89/uXTH6pfyRzy+lf8WSDU4apkRqpALZZE9GDxtbIBqllUwFMNRyDiByp8qLlT5Ucg4gsqWVFyp8qOQcQWVLKi5UsqfIXEFlTZUWE0J8ieJ4RW2l3XGXk5rOc4EZswMEag5tTfsjdZdPsLbTHUSHNOaG2FQttn7gkX3mRuXGYnCZbgucLZSWQ0tMxeTPlwPBamGxbKTRnblhsUx2iHGSXF7h3oIAEA7uEryn1o9HR2jcYxxyhpBtc1wBpOpETcQJujCoJn6vyxlCN546cTuXKF09ujlMRbKL3zZCHRaC7fNuK6rA4mnUY15dSDnC4/ZmmDcR3f3d6IysaJMi3dm3/AFlDysTrwHtC6t7KcOupxl7w0xVJ/DRrTLucaKDDSkfW0tQDGGb6d3Xn7OgiVawLsOatPq3snMIAohhJ3wcsj5q1sbXR1EpSoSnXXZycSUqtjcQym2azw0br3PIDVx5AKw03WB0tpU+saXVC05O6xpLyJOhYJjXUgWWGWT0bYoLZWx3SjKS2i2IGtSZ1i1Jtxpq4jwXO1X1az2ufme76q9S8HLUcctNvZYbc93BWHYmjTJDKXj1r2t3/APbpkvjzCD/LdVxgVC2RSkUKQpgznn6xxz6N8gOaxNyDejlWA/EPDBDQ01XBjQf5sQGg6DPSdYD2lGg3AU8oNV9UuqUmjqGQ0E4mrVpnO+BE5mmB7JWbcw80ZIDCXVXve6wwZMkZRO/TVh4wnoPrjK0OLcr6cikG05H7XWpuDgwC0Qb+PFMD0voJUY/Cl1Gi6hme8htQuccxJ7TpjUmYFrrHq9OKrLPpNJFjlcW3GuuZan0ZUHswhbULswrVQS+SSM5gybmwF1zHTXAZMXVA9odYIG50E+/N6KEk5NMcm0k0Y+365xDa1V1usBMa5Z0E2mLDyXP9HsDDn9qe6bRxcNxPBXcHicz38MjRv9kzHvWxhHNc7sxoJgLZR6MHJg34ITJ5W3LTdshrtnYyq4dxjMl4v1lPN7iPVPUYJuunxuDA2bWpTE0hmgiZNSmTHglLoqHbPFMLhx2uR/NNWw60KFINfVbPdcBdQxLBqEiweHw1xZbGytmufVptbqXNAHEyEHBN+S7XoNgZrCoR3SA38RIk+Q+KH0LZ5niaT2PcJIhxEW3Epmuf94+Ss7Uqnraot9rUGnB5CLRp2H64IKI4GkXVGgye0NfFV6e0SDoTcjmuy6F7NFTEsmC1jmudbmIHmfgVxzsOM7x/XePRxSAtU9pOkbp0k/BXXbQyuhxuI+Eoez9mCo9jQJdMA8J/RKW3cCKeMqsbo0tidYyNKXQdl3D49rrTz/RWxg9svb3Xn1n3FczhtnvNOs5pJysLiToBmaABCbZWDfUexolxJAiTrKKCzu29KyRleA6+rbGVpYXbNMtHah24Gxj4HQLzbBCo4tAm+4BaWzG54NR4Y3KXHLJdIiGmYAmeaEmtCk/Z6bQqh0wZhGC4XDdKaWHGTD0nObPac58Eu04aRGnorx6bs3UXbzd0DleF0xmku2csl30danXG4fp4wmH09NcjpI8RHzW3gekNCrGVxE/eEaeCpZEyaNdJVRj6eucfrks+j0jpGu6kTpGV172k2jyVWI20y57a3SdlJzW0y11+3fu6W9/uVCt0zyAywGScrgbRGhFr/mk5pbCrOvKjK4Sn07cJztbI0jsgkxHEwDOl1pUul7HAGAJ4lCyxBwZw+LoYfq8jSWB4DWtqFwAOYONRpIIIvBhx3c5r4vZrqQh9QPcGiKbu6RwY4AGZtEDUniEGu3DksbSpuYWiSHkPMtkTB1BtIFtUUYYObrkyEkXLrxDYtpfRefxa+TqFgeyMwYchdJ7bS8BpvAPejfv3blbZjazKeUVXhodcNc4A2bMCBO4zGhFkLZWNwgcxtai95IyxPZbmcS7MJmBPular24cEtFHKHaZzDRMOdBDrgAg/4uSdV2JhsP0iqQIqV+y0Zpqm5vMAN7p3jfY8kWnt54qCoKtXKIBbVeXZiDaTA3crKth6zH0+xhTmsM8uIHENAfY34bkLFbJrOGXqqo/DTfobG/mU02wbaNDGdL67pDXCJJHVwSODYGvqn2Z0ze2AW5i6+V0h3lO7xXMnA4xhyswlYAZj2aNWHkiJMTv8bAK1h9mYpzQ92HrB47Pap1BuB7NjAn10tC0tk0juaHSo1MRSp0mDK57GuLjJGYgeybaqz00bSL29Y2o45NGZS0iTE5nAA6rh8DhcRBcaNdpBI+xqzbR0RJ42G/kuuZtI1xQOJ2fiHP7FMvLRAMgOc4Zs2STMkaTzUu2+y8daMZtfDtBik7QWdWoMO8xEuIT0tq05blw1AWZ3sWH94Pbo2JgSB+I8FedVw0EnZmKiLiDJ10GefLmqjcHh35XtoYvDzlGR1B9SI6xolwvvJvpIRX4NLXsCOkNSBlGBZp7Lnm/UaGXf9xwH+BDp9JcTLYxtJoL6chlFwBmtVYRajva0DXVu7U3BsDDuECpVbaxdhK43UIm39mz3/dMFq9FKbiHU6gYPq7ObUF21jWLu0BE5nCN08E6/ArXs6T6NsY+thi+rW6853jP2hIDrCHNaRHgsr6WmuY2lVpEscQ9hINy2QQPe5b3RKlh8JS6rrKTblx+tbcuMkjMREmbblDprsR+Ootp0H05a7N2nWiHCJbPEW5KVF8rocpx41Z5JhacMqQTPVh2pgEjXxsh9EK73Oq53EkMaRO65XaM+jjGta4A0nZqbWd9wFpv3eardH/o+x1Bzy9lNwcAOzUnQ75A4rXizHkvZX6CMfXq/WnM0dq4uIuRO8Gy9C2z/AEWv/d/62qt0b2C7DueX0gyQAMpbA4zHG3ot3HbGqVaNRjWkdYyAYmO0DpPJZyuzWNUfOO26ha+qWkj6wC3gVUwVZzu84lemO+iXaDn1HObQIc6RL3W/cUh9DuO3dS3j2nf/ACrJOTwIJyAbyAddOS6P6Itp1a1Woyo7M1nVub2W9lznGdBy38F0WxvouxdGox7zScGGYDjcjS5FrwuuwnRzqnZg2iySC6CxpMceJ1USv0XGvZ89bYxT/wBoqttetVboNA8xCu4QElgGh15aLvNrfRUKlZ1Q4/D0wXvfBy+04m56wImA6AYek9rqm1MK4NMloDb8iRVMacFddEckZ/0fVycQaRgC7ray1waASuLxALatWQYFWrNrjtuj1XtVI4Cm7MMZhpJklurjrJI1XH4zo7sk1HvO03E1HE5WUnES46A5Dx3qUnehuca2D6E7PJHXOJE2bAHmbjy9VgdKnxtKsyNXM99IO/0r0fBDCUWNaKrYAtLhoONlQxWxcA/EftLq8PJaYFSnllrQ0GC2dwMShRdg8ka2Z38mdVs+vMZiyXf5m28vzWV0BrN/bBTLDny5mm0AG8x4W9V2eM/ZHU3sfXDmvaQWiowE6GxaJmUPAY/C0WAUw0BsAdthMA25lJRlQPJC9nL9DGtNUgsOYUi5ptAkG5948ZT7R2f1Gy31SO080ojUMzCPXX0XV4Pa+FpMFNjQGtGUCd3jMlEr7bwj2dXUa1zLdkm1jI0dO5PjIXONb/w8QGNMmxOsDeB4jXzVulirxmJJbbNbyI0nmvVMQ/ZzhaixvHK45jaIOZxsghmzx7O6LuFhwjRV36/0z6PJhiPrDIA7R5b+Wq29j7QyOF51iCIjSJjw9y7puG2YDIp3Jmzhr4qw39g0Aj/EPmk7E6Zz9PbLCO6c2lnCAOM7zqufxO1BSeXsdvMSLxuncV3tY4LKQ4EiLgGmdPEqw3D4I3LgDM3czWImwN4squfyKkeX4XGvrEnXeTY28USvQqOa51NtR7WAl7m03OawcXkSGjXVerN2FgK1IOJlpqOh3WRmqNEGIibNPoVVpYrD0MQ4GtAghrOuZlLcoBN5GbXnChy7L4V2eOVXPABIgE2kOEnlI+EovWAbwvSNrY/ZZpGiCwA6HrZcDfK6budBMhc5gdp4FjAytTc97ZDntjK4gntC2hSY6OUwO12tc9z6efOSSC4wfGdfNRwuNb1mYsABm19+7w5Lo8P0HGtWqfCmPm78ldPQmk2CHPdpMlrQBvN2qHOBqsbA4avg8jjlGcggAOJIMHcQrezsPQlwqPhwPZF7tsbn4b9brZwOx8PSEtpgH73eduJ7brpMwzAS4OIF4AM/HRc7ktIpwrZYwZe7EU2U4DSRbKL5YcXQBrbgq/TbGNpvqUixrnZg8A0WtEOGaetaQ8679SrWwIOJbANsx8LR8wjdNNnNOJpVHBxD2ZDqR2STru7/AJrTB0ujKXcbOIZjGkD6mlvmeuHh/wDqlTxYkN6midIg148Cetstmv0fBnK/ycN3CyPgNh02/aCeABt5rp+8wtFfA4R1W4oU+EuNYCeXbuFobX2dRploDKROWSHOrCTxBD7DkR5rUbUhY/SDI54l0Oy2kW1tfUb/AMkptx+S4JNFGtTIn+bt8R1tQT+JlXlvCpU3tcR9TQdIbMOqzcOmzng7h6FGd1lMyCQNxmR/mG/kQFL+UZLeuptdpcgTcHR4vqBv3qObK4x9FWpiWtHaw1Np5sfExS4uvd7vRH/lGhIy4aiR2R2mmZNUsMQdIBIUqYoEdipUpeedsRT3a6Bo8yojZzzGXqqt292GuEVHEmOyTE87hHNhS9HU9H9nYLEMz/s9E7j2CACNRB4G0qnt3YGzaA6x9Go0OdA6p2hubBxsLInQ5pZSLS0s7Rs4ydeJVPp5WltNoue0THC3+6SyNMcoRcbKVLZ+zjJp4rFU4E9oEwD+AImFwDXk9RtZ/majTHm5c9RcIdH3I9FHYbSHOmR2fmtVlMeH5OvOytoieq2kXx/b1PhBC2qex9rloLto5RA/6ioPg1cp0Ux7ushzpzCPy/XNdLjqhNGqP7M/EI8o1jtbB1sFWB+u23TbGo/anGPGSFVdhsP7e2834C5/vDlwePpEufH3h8ChUMORqEeYXjR31PZ+zXOAO0K1QkgCKbwJ09qy0qHRrZpP2uJdeLOpxPOQVwWGtlI3EH0K2OheENKo4nQho8wQpeZlLHENiNp7IpPcwYTEvLXuYS6qwAlpLSeydEajt3Z8jJswX+/iKh90Lmdp0W9dV1+1qHzzlSps0PBLysOKO/2ZtfB1Khp08HRBE96nmkAxIJPxXO4vpfiRUeymzD0g172jJh6ejSQCSQb2S6NNAqlw73ugkSsfFN+tq/3lT+NynyMpxVaOy2BtepVYM7yXCx+RWZtrpBi6eKfTp1IY3JAytOtME3InUhZ+y6+R4O7Q+Cbbrv5y88mf+tiPJL2DjGtHUHa76mGqPDjmDHHwcP171kdHMTVq1g2rUlh9iIzHxHr5LNwuNytqN1DmPEcHQYKBgsSWOa5uoII8keSXsOMPRt7DxOaplqumZAsAM3OE+ArurUnsbHXWcw2iJGYRpMSsWnmzSOM28VdwOIqUy0h05AQ0EWAOoTWR/LJcVWivWxeJYSx7oIJsWtHpAvuUmYnER3psfYb6zC6vBVm1hNWmA4cRMiZtNxcaLRaQLBapN6ZlSXwcA3FYpzoB8IY0/ALqNgYGqRnxDjfRpABjiYAI8FsNcBonzpqLT7YdEXYOmdW+8quKNRtQkOinaGwDuvqOKsmogVqy1XYui3XwYfhHODWuLXFxzCTltmAMGLfoLnqVKg4ZAxpDdZaNNNSDJuu42XgjWwYDXBpdnBOXN7RGkrx/pPsOrQeDSzNyFzHulzb8YmwMLjyxuWzri+KT/B1DtmUwfq2gCNzQAeR3rMrU2BxF230GgXFVziGkhzqgJBmS8ZgNddbBZb69SbOPk4gJLF+QtP4PUWTPZgcLCZ80VpOma86QD8NFWMSY0G6botKqRA8yNdd652bJhXwbZ4tM6+ip1Bcdo6WmPMn3JqtbcIdMeyQb8NbINZ/C5I3bv1KlhJ9G10VaDiAf6rvkPJbfTfDE0qVQD7OoJkmzXAgn1yrN6DH6yoTuAA+cegXT9IKfWYSq0Ak5C4eLe0P4Vvh6oivsZwrKyKKqyqVayO2qu5nCXzUVPG0RU1s7QHW3CN6YVUi+dVnONlRlRk1WvpE8DYb2n1+BTB9N1oLD2Zy6GxN2+R0Wm42g3H61VDE4O8svpbwnQ+ei52mjZOypVwhAsMw+9T4di5bu7vKwQWAnunMJbyP2jnGykHPabSDGmhHd9UTr2O77ZMgyLHvkCeKmwOg6M4lxpkuknO7U6Dgszb2KzVnH7oyi/DX3yrWxnBrDlcXXOtjPAqodmOcZc6JuYEmUrKdtUZNJkE+Eq3RAB8lDFMyFzeE+irYR9z4KuRm0alIBpltit+tXmhUdu6sn4LmusWnha80KrTqGOjwMfrzQ2OLMAEFzjxTPTMKclTYB6K2diYiH5eOniFhUyrVGqQQRuMosLB7SYOuq/wB48/vFDYbKdcFz3OJ1c4+pJTtpJWBZwOIyPDhuPu3qrijNSoRMF7yPAuJRm0yiileUrArMmyJVplzpvoPc0D5K02mjMo8kWMp0qCsU8PwCuUcHJutChQaNP1xTVsDPp7McRJEDmtLC4NoGkniVZ3QVIFdEMXszlkS0FpiETOq4cnlbpUZN2Hzps6FKYuQAR1RUa9ZEqvWbWqrWCJbPR+iT/wCaMsdX/wAblzu2i1uLe1w74DheeTieG5dH0GAODZf75j/G4WWT0z2SA8YgObItEXM2F9DeNVw5lfI70rgjk67XMcA+r9XvGSToYbn3D325qlithYV7i80xLr9mWg84W/XcOrNyDAFtxIBBndoqjaJ++4csrB81zqRrsyXVYJPxO4cJ3aIJqF1hbTX3854foqu2vSMk+V9SPgb7vzR8Ph5cS1pyk2/R8Yj3IGg98okiZ/XiZ+aTqNzNr+5NRBmCePu93/CNVqwNdf1+SxkzOXZu9BqZy1Dlm8A+Q/NdlTpgiDwuPFcx0NogUw9wgvJLddJtyK6gkbyuqOi46PHazDSqPpH2HuZ/lJE+5TbUVzp1R6vH1ODwx482gH95rllMeu27VnntU2i4KifOqwcnzJWIsZ1HNwQcyWZTJJjTaJ12NeO0PPePNUK2EcP6wkXFnak35K4SmFTiueUKNVKx9iuhhi91eLvH1VSg+JjfqhPxuogiOMLMtMr7UcC4x4HxCoUxCtB7SbhRqUYuLhBLI50anUOV14kEGN4VfKiNCViBhikGKYUglYyApojWqQCkAgQ7WojWpMpEqzTw/FAwICtUcMSp0mDcEdrjomkA1PDga3VlthACjmThy0jj9kOaWg4KmHquHKWZbxSWjNtvZYD0+ZVw5SDlVkh8ykHqtmT50WAc1EN9VDL0GpUTTAbEVlmVqyni6qzalVdECWe1dBwP5PoSNzzPjUepdIqxbTdlAvYknQb4AFyq3QitGAw4vdrv43rVxBae/BB4i3mdAuGfcmenD9q/4eT4vaEPDG3bcndcSQORH+ocVZdtamLAfFC6Z0RTxFSGFocA8EAZYJyntDm3TmsqW2mZgbuXguOUeLpEybvoovwzbACwJid53eHBbdBoDAbCLRN9T859UHqrwQ0nQ7oE/lqrJIhzRadCBfW3xG5EmaJ0iOGpyTMxrpqJvPD/AHsgYsdm24/M/wDyFZp1gWzqIPID5n/ZZ2Lq9ogaRYjfIMRz/JYvZEjvNisc2hTDQZgE6nWCRy1WzRZIuPMyqmxKreqYAItpvWgx1hr5hdy0ao8/+k3BZXUa175qZmd0OaBy765Gm9emdP8ACmpgahi9MtqDllIDv3XOXlVF66IP7TizRqZfD1LMqwcpZkWZB8yWZBzJZkAHzpSg5kg5IAzDCd0HVCDk+ZTxRXJhGwNyZ7N4TAqQchpCtlSozeNPgmAVt4lM2kFzyVM0TsrhqK2mUcDgpgKQBsoc0RtMBSAUwqUWwbSJtRZQU4KtY/ZLmGDlIOQQ5SzLRUtENthw5PmQA5PmTskOHKQcq4cnDkWBYDk+dADk+ZFgHzpZ0HMmzJ2MK56rVaiT3qniaqqImVsTVVB9VSxNVUyZXVFk0e8dEHNGAw0wT1TdSBAN/mi4/alNurXOG5zA1wjlBm193xWdsalUGCwpilAw9Ey4Q4AsaYzEOGp4KtthgLcz3zMgNDSS4kERLWAb1x1cmegnUUcp0kZTbTNWk4vpuzZdzgSdCyBIkC4tc6b+MftSpPD0XdY/YgrNc2jQaDF8zi0iRqSAL74JK89dsaoCROhjT8ylOMbI7Z3db7Q/iPxCC77T9f1E6S4JbNpERofwn4hZlfvj9bkyShbJl8Hp2yO7T8viVoHXzSSXcamd0k/oWK/uK38Dl4xRSSWsNHLn/cWWqaSSZgOkkkgBJJJIEOFJJJICQUwkkgB05TpLDJsuOhMUwkkoKCBSCSS6DIcJ0ySAJJ0kkAOkEkkCJBOEkkASCcJJIAdMkkgAVRUMSkktIiMjEoVHVJJdMRHvmxv6DR/8Wl/6mqvsHV/gz4FOkuR/J3rSNR/69V5VtL7Wp+J3xSSWOQo//9k=" alt="Capitol Complex">
+        <p>The Capitol Complex is an architectural marvel in Chandigarh, designed by Pierre Jeanneret, in collaboration with the famous architect Le Corbusier. It serves as the seat of the government of Punjab and Haryana, housing important buildings like the Punjab and Haryana High Court and the Secretariat.</p>
+        <h3>History</h3>
+        <p>The Capitol Complex was designed by Le Corbusier in the 1950s as part of his plan for the city's development. The structure is a masterpiece of modern architecture and has been designated as a UNESCO World Heritage Site.</p>
+        <h3>Interesting Facts</h3>
+        <ul>
+            <li>It includes the High Court, Secretariat, and Legislative Assembly.</li>
+            <li>The Open Hand Monument, a prominent symbol, stands here as a symbol of peace and reconciliation.</li>
+            <li>The Capitol Complex features bold, geometric designs and uses a combination of concrete and stone to create its monumental aesthetic.</li>
+        </ul>
+        <a href="index.html">Back to Main Tour</a>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Chandigarh Heritage Tour. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
